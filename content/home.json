@@ -7,23 +7,64 @@
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
+          "img": "/img/uploads/Banner-Principal-1.jpg",
+          "link": "/",
+          "alt": "Banner 1",
           "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
+          "end": ""
         },
         {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
-          "start": "",
+          "img": "/img/uploads/Banner-Principal-2.jpg",
+          "link": "/",
+          "alt": "Banner 2",
+          "start": "2020-04-11T05:54:06.750Z",
           "end": ""
         }
       ]
     },
     {
+       "type": "responsive-banner",
+       "img": "/img/uploads/tarja.jpg",
+       "alt": "Tarja Frete",
+       "mobile_img": ""
+     },
+     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/mini-1.jpg",
+          "alt": "Vestidos",
+          "link": "",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/mini-2.jpg",
+          "alt": "Conjuntos",
+          "link": "",
+          "mobile_img": ""
+        }
+      ]
+    },
+    {
+     "type": "banners-grid",
+     "banners": [
+       {
+         "img": "/img/uploads/mini-3.jpg",
+         "alt": "Blusas",
+         "link": "",
+         "mobile_img": ""
+       },
+       {
+         "img": "/img/uploads/mini-4.jpg",
+         "alt": "Acessórios",
+         "link": "",
+         "mobile_img": ""
+       }
+     ]
+   },
+    {
       "type": "info-bar",
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "collection-shelf",
@@ -33,9 +74,42 @@
       "page": 1
     },
     {
-      "type": "page-title",
-      "title": "Loja demo da E-Com Plus",
-      "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+       "type": "responsive-banner",
+       "img": "/img/uploads/banner-extra-1.jpg",
+       "alt": "Tarja Frete",
+       "mobile_img": ""
+     },
+     {
+       "type": "collection-shelf",
+       "shuffle": true,
+       "collection_id": null,
+       "limit": 12,
+       "page": 1
+     },
+     {
+        "type": "responsive-banner",
+        "img": "/img/uploads/banner-extra-2.jpg",
+        "alt": "Contato",
+        "link": "https://wa.me/message/CES4EOBWQ7OFJ1",
+        "mobile_img": ""
+      },
+      {
+         "type": "responsive-banner",
+         "img": "/img/uploads/banner-extra-3.jpg",
+         "alt": "Contato",
+         "link": "https://wa.me/message/CES4EOBWQ7OFJ1",
+         "mobile_img": ""
+       },
+       {
+          "type": "responsive-banner",
+          "img": "/img/uploads/Instagram.png",
+          "alt": "Instagram",
+          "link": "https://www.instagram.com/misturinhastore_/",
+          "mobile_img": ""
+        },
+    {
+      "type": "custom-html",
+      "html": "<!-- SnapWidget --><iframe src=\"https://snapwidget.com/embed/924619\" class=\"snapwidget-widget\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" style=\"border:none; overflow:hidden;  width:1120px; height:160px\"></iframe>"
     }
   ]
 }
