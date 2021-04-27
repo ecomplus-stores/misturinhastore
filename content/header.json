@@ -1,7 +1,8 @@
 {
   "marketing_stripe": {
     "text": "Aproveite lançamento da nossa nova loja",
-    "link": ""
+    "link": "",
+    "background": "#9cd9e2"
   },
   "contacts_stripe": {
     "pages": [
