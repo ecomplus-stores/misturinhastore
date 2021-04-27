@@ -4,8 +4,8 @@
   "domain": "misturinhastore.netlify.app",
   "short_name": "misturinhastore",
   "description": "misturinhastore",
-  "primary_color": "#222831",
-  "secondary_color": "#393e46",
+  "primary_color": "#9cd9e2",
+  "secondary_color": "#fff212",
   "bg_color": "#ffffff",
   "theme": {
     "bootswatch": "_",
