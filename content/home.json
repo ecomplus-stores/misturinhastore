@@ -70,7 +70,36 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
-      "page": 1
+      "page": 1,
+      "headless": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 2,
+      "headless": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 3,
+      "headless": true
+    },
+        {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 4,
+      "headless": true
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 5,
+      "headless": true
     },
     {
        "type": "responsive-banner",
@@ -80,9 +109,11 @@
      },
      {
        "type": "collection-shelf",
-       "shuffle": true,
+       "shuffle": false,
        "limit": 12,
-       "page": 2
+       "sort": "offers",
+       "title": "Ofertas",
+       "page": 1
      },
      {
         "type": "responsive-banner",
